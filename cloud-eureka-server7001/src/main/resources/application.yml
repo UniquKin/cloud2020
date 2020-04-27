@@ -3,8 +3,8 @@ server:
 
 eureka:
   instance:
-#    hostname: localhost #eureka服务端的实例名称单机版
-    hostname: eureka7001.com #eureka服务端的实例名称集群版
+    hostname: localhost #eureka服务端的实例名称单机版
+#    hostname: eureka7001.com #eureka服务端的实例名称集群版
   client:
     #false表示不向注册中心注册自己
     register-with-eureka: false
